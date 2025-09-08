@@ -37,6 +37,6 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 ---
 
 ## 🌐 Connect with me  
-- [Email](mokrovsimon@gmail.com)
+- mokrovsimon@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/sem-wett)  
 - [GitLab](https://gitlab.com/semen.mokrov)  
