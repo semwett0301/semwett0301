@@ -18,15 +18,17 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{inputenc}
-\usepackage[a4paper, top=1cm, bottom=0.5cm, left=1cm, right=1cm]{geometry}
+\usepackage[a4paper, top=1cm, bottom=0.5cm, left=0.8cm, right=0.8cm]{geometry}
 \usepackage{tabularx}
-\usepackage{mathpazo}
 \usepackage{fontawesome5}
 \usepackage{paracol}
 \usepackage{qrcode}
 \usepackage{enumitem}  
 \usepackage{multicol}
 \usepackage{titlesec}
+
+\usepackage{fontspec}
+\setmainfont{Lato}
 
 \definecolor{brandblue}{HTML}{0A66C2} % choose any hex you like
 
@@ -203,7 +205,7 @@ Passionate about creating reliable, scalable systems and open to both backend an
 \section{SKILLS}
 {\renewcommand{\arraystretch}{1.05}
 \setlength{\tabcolsep}{4pt} % Увеличиваем расстояние между колонками
-\begin{tabularx}{\linewidth}{@{}>{\small\bfseries}l >{\small}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l >{}X@{}}
 Languages & JavaScript, TypeScript, Java, Kotlin, Python, C \\ [0.25em]
 Frontend  & React, Redux (TanStack/RTK), Vue.js, Next.js, Electron, React Native, Expo, Styled Components, CSS3, HTML5 \\ [0.25em]
 Backend   & Spring Boot (Data, Security, MVC), Java EE, NestJS, FastAPI, gRPC \\ [0.25em]

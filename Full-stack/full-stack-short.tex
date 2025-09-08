@@ -20,13 +20,15 @@
 \usepackage{inputenc}
 \usepackage[a4paper, top=0.7cm, bottom=0.5cm, left=0.7cm, right=0.7cm]{geometry}
 \usepackage{tabularx}
-\usepackage{mathpazo}
 \usepackage{fontawesome5}
 \usepackage{paracol}
 \usepackage{qrcode}
 \usepackage{enumitem}  
 \usepackage{multicol}
 \usepackage{titlesec}
+
+\usepackage{fontspec}
+\setmainfont{Lato}
 
 \definecolor{brandblue}{HTML}{0A66C2} % choose any hex you like
 
@@ -82,8 +84,7 @@
 }
 
 % preamble
-\firstname{Simon}
-\familyname{Mokrov}
+\familyname{Simon Mokrov}
 \address{Amsterdam, the Netherlands}{}
 \title{Full Stack Developer}
 
@@ -93,16 +94,19 @@
 \vspace{-12mm}
 
 \section{CONTACTS}
-\begin{tabularx}{\textwidth}{L L L}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l @{}}
   \emailsymbol\enspace \emaillink{mokrovsimon@gmail.com} &
   \mobilesymbol\enspace +31 (06) 579-875-47 &
-  \faLinkedin\enspace \href{https://www.linkedin.com/in/sem-wett/}{linkedin.com/in/sem-wett} \\[2pt]
-  \emailsymbol\enspace \emaillink{simon.mokrov@hva.nl} & \faWhatsapp\href{https://wa.me/310657987547}{\ +31 (06) 579 875 47} &
-  \faTelegram\enspace \href{https://t.me/sem_wett}{sem\_wett} \\[2pt]
+  \faLinkedin\enspace \href{https://www.linkedin.com/in/sem-wett/}{linkedin.com/in/sem-wett} \\[3pt]
+
+  \emailsymbol\enspace \emaillink{simon.mokrov@hva.nl} &
+  \faWhatsapp\enspace \href{https://wa.me/310657987547}{+31 (06) 579 875 47} &
+  \faTelegram\enspace \href{https://t.me/sem_wett}{sem\_wett} \\[3pt]
+
   \faGithub\enspace \href{https://github.com/semwett0301}{github.com/semwett0301} &
   \faGitlab\enspace \href{https://gitlab.com/semen.mokrov}{gitlab.com/semen.mokrov} &
-  \noindent \faLanguage\ \  English | Russian | Dutch (A1) \\
-\end{tabularx}
+  \faLanguage\enspace English \,|\, Russian \,|\, Dutch (A1) \\
+\end{tabular*}
 
 % ДВЕ КОЛОНКИ, КОТОРЫЕ ПЕРЕНОСЯТСЯ МЕЖДУ СТРАНИЦАМИ
 \setlength{\columnsep}{4mm}
@@ -149,7 +153,7 @@
   \small{Developed and maintained the Skillfactory educational platform and the Polytech introduction system for abiturients, focusing on scalability, usability, and performance.} \\ [1mm]
   {\small \textbf{Tech stack:} React, TypeScript, RTK Query, SCSS, Styled Components, Spring Cloud, Kotlin} 
   {\scriptsize
-    \vspace{-3.5mm}
+    \vspace{-0.5mm}
     \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
       \item Resolved 30+ product issues, improving stability.
       \item Reduced design-to-development cycle by 25\% with custom UI components.
