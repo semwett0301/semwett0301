@@ -15,11 +15,13 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 ---
 
 ## 🛠 Skills  
-- **Frontend:** React, TypeScript, SCSS, Styled Components, Redux / RTK Query, Vue.js  
-- **Backend:** Java, Kotlin (Spring Boot), Python (FastAPI, Django), NestJS, Kafka, RabbitMQ 
-- **Databases:** PostgreSQL, Redis, MongoDB  
-- **Machine Learning:** pandas, scikit-learn, XGBoost, SHAP  
-- **DevOps & Tools:** Docker, Docker Compose, CI/CD pipelines, Git  
+- **Programming Languages:** JavaScript, TypeScript, Java, Kotlin, Python, C
+- **Frontend:** React, Redux (TanStack/RTK), Vue.js, Next.js, Electron, React Native, Expo, Styled Components, CSS3, HTML5
+- **Backend:** Spring Boot (Data, Security, MVC), Java EE, Quarkus, NestJS, FastAPI, gRPC 
+- **Messaging:** Kafka, RabbitMQ, Amazon SQS, WebSockets, SSE, GraphQL 
+- **Databases:** PostgreSQL, Oracle, MongoDB, Redis, Hibernate, TypeORM
+- **DevOps:** Docker, Git, CI/CD, AWS, Nginx, webpack, vite, monorepo
+- **ML:** scikit-learn, pandas, PyTorch, XGBoost, NumPy, MCP
 
 ---
 
