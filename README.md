@@ -27,10 +27,10 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 
 ## 📂 Repository Categories  
 
-### 📘 Bachelor Study Tasks  
-- **[timus-tasks](https://github.com/semwett0301/timus-tasks)** - implementations of algorithmic problems on Timus platform from the Algorithms and Data Structures course. Tech stack: **C++**
+### 📘 Bachelor Study Projects  
+- **[timus-tasks](https://github.com/semwett0301/timus-tasks)** -- implementations of algorithmic problems on Timus platform from the Algorithms and Data Structures course. Tech stack: **C++**
 
-### 📗 Master Study Tasks  
+### 📗 Master Study Projects  
   
 
 ### 🐾 Pet-Projects & Open-Source  
