@@ -32,6 +32,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 
 ### 📗 Master Study Projects  
   
+### 🖊️ Test Tasks 
 
 ### 🐾 Pet-Projects & Open-Source  
 
