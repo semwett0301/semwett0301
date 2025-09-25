@@ -30,6 +30,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 ### 📘 Bachelor Study Projects  
 - **[web-labs](https://github.com/semwett0301/web-labs)** —- a series of university web programming labs implementing an interactive “point-in-area” app across multiple stacks (PHP/JS, Java Servlets/JSP, JSF, and a modern split with Spring Boot + PostgreSQL backend and Vue.js frontend). Tech stack: PHP, Java (Servlets/JSP, JSF), Spring Boot, Spring Security (JWT), Hibernate, PostgreSQL, Vue.js, JavaScript, CSS.
 - **[timus-tasks](https://github.com/semwett0301/timus-tasks)** -- implementations of algorithmic problems on Timus platform from the Algorithms and Data Structures course. Tech stack: **C++**
+- **[computational-mathematics](https://github.com/semwett0301/computational-mathematics)** -- coursework solutions for Computational Mathematics and Probability Theory: linear systems, nonlinear equations, numerical integration, approximation, interpolation, ODE IVPs, and basic statistics/EDF. Tech stack: **Python (NumPy, SymPy, Matplotlib, Seaborn, pandas, termcolor)**.
 
 ### 📗 Master Study Projects  
   
