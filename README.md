@@ -36,7 +36,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 ### 📗 Master Study Projects  
   
 ### 🖊️ Test Tasks 
-- **[test-for-jupiter](https://github.com/semwett0301/test-for-jupiter)** -- repository for testing integrations and experiments with the Jupiter protocol and related tooling. Tech stack: **JavaScript, React, CSS, HTML5**
+- **[test-for-jupiter](https://github.com/semwett0301/test-for-jupiter)** -- repository for testing integrations and experiments with the Jupiter protocol and related tooling. Tech stack: **JavaScript, React, Redux, CSS (Modules), HTML5**
 
 ### 🐾 Pet-Projects & Open-Source  
 
