@@ -36,6 +36,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 - **[computational-mathematics](https://github.com/semwett0301/computational-mathematics)** -- coursework solutions for Computational Mathematics and Probability Theory: linear systems, nonlinear equations, numerical integration, approximation, interpolation, ODE IVPs, and basic statistics/EDF. Tech stack: **Python (NumPy, SymPy, Matplotlib, Seaborn, pandas, termcolor)**.
 - **[computational-mathematics-java](https://github.com/semwett0301/computational-mathematics-java)** — coursework solutions for Computational Mathematics: linear systems, interpolation. Tech stack: **Java + Maven**. See the Python counterpart: **[computational-mathematics](https://github.com/semwett0301/computational-mathematics)**.
 - **[cloud-mono](https://github.com/semwett0301/cloud-mono)** - Cloud and Fog Calculations: implements microservices, shared libraries, and cloud infrastructure in a mono-repository structure. Tech stack: **Node.js, TypeScript, React, Nest.js, Docker / Docker Compose, monorepo**
+- **[advanced-db-homework](https://github.com/semwett0301/advanced-db-homework)** -- Advanced databases course: implements database tasks such as query design, optimization, and schema management. Tech stack: **PostgreSQL, Spring Boot, Guava, Java, JUnit5**
 
 
 ### 📗 Master Study Projects  
