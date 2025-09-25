@@ -1,0 +1,311 @@
+%%%%%%%%%%%%%%%%%
+% This is a two-column CV template based on moderncv.cls
+% (v1.0, May 16 2024) written by Genki Ogaki (rockstarogk@gmail.com). Compiles with XeLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+% environment
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{banking}
+\nopagenumbers{}
+
+\usepackage[T1]{fontenc}
+\usepackage{inputenc}
+\usepackage[a4paper, top=1cm, bottom=0.5cm, left=0.8cm, right=0.8cm]{geometry}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{paracol}
+\usepackage{qrcode}
+\usepackage{enumitem}  
+\usepackage{multicol}
+\usepackage{titlesec}
+
+\usepackage{fontspec}
+\setmainfont{Lato}
+
+\definecolor{brandblue}{HTML}{0A66C2} % choose any hex you like
+
+\definecolor{darkblue}{HTML}{0B1D51} % deep dark blue
+
+
+% Основной текст = 10pt (чуть плотнее межстрочный)
+\renewcommand\normalsize{\fontsize{10}{12}\selectfont}
+
+\renewcommand\small{\fontsize{9}{10}\selectfont}
+
+% Подзаголовки = 11pt
+\titleformat{\subsection}{\fontsize{11}{13}\bfseries}{}{0pt}{}
+
+% Заголовки секций = 12pt
+\titleformat{\section}
+  {\vspace{2mm}\fontsize{14}{14}\color{brandblue}\bfseries\scshape} % стиль текста
+  {}{0pt}{}                            % без номера, без отступа
+  [\titlerule\vspace{1mm}]
+  
+\titlespacing*{\section}{0pt}{0.8ex}{0.6ex}
+\titlespacing*{\subsection}{0pt}{0.6ex}{0.4ex}
+
+
+% macro
+\renewcommand*{\labelitemi}{-}
+
+\makeatletter
+\renewcommand\footnotesize{\@setfontsize\footnotesize{10}{12}}
+\makeatother
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+\newcommand{\educationentry}[8][]{
+  \noindent
+  \textbf{#4} (#7) \hfill \textbf{#2} \\[0.1em] % University name and location
+  \textit{#3} \hfill \textit{#6} \\[0.3em] % Degree and program, study period
+  \textbf{Major:} #5 \\[0.5em]
+  \textbf{Coursework:}
+  \vspace{0.5em}
+  {\footnotesize
+    \raggedcolumns
+      \small
+      \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0em, parsep=0em]
+        #8
+      \end{itemize}
+  } 
+}
+
+% preamble
+\familyname{Simon Mokrov}
+\address{Amsterdam, the Netherlands}{}
+\title{Backend Developer}
+
+% document
+\begin{document}
+\maketitle
+\vspace{-7mm}
+
+\section{CONTACTS}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l @{}}
+  \emailsymbol\enspace \emaillink{mokrovsimon@gmail.com} &
+  \mobilesymbol\enspace +31 (06) 579-875-47 &
+  \faLinkedin\enspace \href{https://www.linkedin.com/in/sem-wett/}{linkedin.com/in/sem-wett} \\[4pt]
+
+  \emailsymbol\enspace \emaillink{simon.mokrov@hva.nl} &
+  \faWhatsapp\enspace \href{https://wa.me/310657987547}{+31 (06) 579 875 47} &
+  \faTelegram\enspace \href{https://t.me/sem_wett}{sem\_wett} \\[4pt]
+
+  \faGithub\enspace \href{https://github.com/semwett0301}{github.com/semwett0301} &
+  \faGitlab\enspace \href{https://gitlab.com/semen.mokrov}{gitlab.com/semen.mokrov} &
+  \faLanguage\enspace English \,|\, Russian \,|\, Dutch (A1) \\
+\end{tabular*}
+
+\section{ABOUT ME}
+\textbf{Backend Developer} with almost \textbf{4 years} of total experience designing and implementing scalable, high-performance server-side applications and APIs. Skilled in Java (Spring Boot, Java EE), NestJS, TypeScript, relational or non-relational database,s and Docker, with strong expertise in building secure, maintainable architectures and integrating complex systems. \\ [0.5em]
+\textbf{Professional experience} spans enterprise retail, EdTech, and banking software, delivering measurable improvements in system scalability, backend performance, and reliable feature delivery within Agile teams. Experienced in designing RESTful and event-driven architectures, implementing CI/CD pipelines, and optimizing data storage. \\ [0.5em]
+Holds a \textbf{Master’s in Digital Driven Business} (AUAS, Amsterdam), with a focus on data-driven development, machine learning, and statistics. Passionate about building robust backend systems, improving system performance, and contributing to reliable, scalable software solutions.
+
+\section{BACKEND EXPERIENCE (≈ 4 YEARS)}
+\begin{enumerate}[leftmargin=1em, itemsep=0.01em, labelsep=0.2em, topsep=0em]
+
+  \item \normalsize{\textbf{\color{darkblue} Backend Developer} \hfill \textit{July 2024 -- Feb 2025}} \\ [0.5mm]
+  \small{\textit{\textbf{ITMO University} — Banking software for Gazprombank}} \\ [1mm]
+  \small{Enhanced internal systems for bank guarantees, optimizing backend workflows and enterprise data processing.} \\ [1mm]
+  {\small \textbf{Tech stack:} Java, Kotlin, Spring Boot, Gradle, PostgreSQL, Kafka, SOAP, Docker} 
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
+      \item Reduced average response latency by 12\% via endpoint refactoring.
+      \item Improved PostgreSQL query execution by up to 20\%.
+      \item Cut report build time from 90s to 60s.
+      \item Lowered server load by 20\% after migrating to Kafka.
+    \end{itemize}
+  }
+
+  \item \normalsize{\textbf{\color{darkblue} Full Stack Developer (Backend-focused)} \hfill \textit{Nov 2023 -- Apr 2024}} \\ [0.5mm]
+  \small{\textit{\textbf{Tune IT} — EdTech solutions}} \\ [1mm]
+  \small{Developed and maintained the Skillfactory educational platform and the Polytech introduction system, focusing on backend scalability and modularity.} \\ [1mm]
+  {\small \textbf{Tech stack:} Spring Cloud, Java, Kotlin, PostgreSQL, Redis, React, TypeScript, RTK Query, Docker} 
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
+      \item Resolved 30+ issues, improving system stability.
+      \item Reduced design-to-development cycle by 25\% with improved backend APIs.
+      \item Cut service latency by 13\% through modularization with Spring Cloud.
+    \end{itemize}
+  }
+
+  \item \normalsize{\textbf{\color{darkblue} Full Stack Developer (Backend-focused)} \hfill \textit{Mar 2023 -- Nov 2023}} \\ [0.5mm]
+  \small{\textit{\textbf{MagicGophers} — Social apps for VK (largest social network in Russia)}} \\ [1mm]
+  \small{Built backend services and APIs for VK mini-apps, ensuring performance, scalability, and data consistency.} \\ [1mm]
+  {\small \textbf{Tech stack:} NestJS, PostgreSQL, Redis, React, VK API, Docker} 
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
+      \item Delivered apps adopted by 10,000+ users.
+      \item Reduced bug reports by 30\% within 6 months.
+      \item Optimized DB queries, reducing latency by 25\%.
+    \end{itemize}
+  }
+
+  \item \normalsize{\textbf{\color{darkblue} Backend Developer (Internship)} \hfill \textit{Jan 2022 -- Jun 2022}} \\ [0.5mm]
+  \small{\textit{\textbf{ITMO University} --- EdTex (OpenEdu - online learning platform)}} \\ [1mm]
+  \small{Refactored a legacy Spring monolith (course update flow) and delivered a standalone certificate service.} \\ [1mm]
+  {\small \textbf{Tech stack:} Java, Spring (Spring Boot), Quarkus, Hibernate, Micrometer, PostgreSQL, MinIO, Docker}
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
+      \item Refactored the course update flow in the monolith, reducing median request latency by 8\%.
+      \item Built a Quarkus-based certificate service with Hibernate, decoupling issuance from the monolith and enabling independent scaling.
+      \item Added Micrometer observability on a separate physical machine to expose production metrics for analysis and capacity planning.
+      \item Containerized components with Docker; used MinIO for object storage.
+    \end{itemize}
+  }
+\end{enumerate}
+
+
+\section{FRONTEND EXPERIENCE}
+\begin{enumerate}[leftmargin=1em, itemsep=0.01em, labelsep=0.2em, topsep=0em]
+
+  \item \textbf{\color{darkblue} Frontend Developer} \hfill \textit{March 2024 -- Present} \\ [0.5mm]
+  \small{\textit{\textbf{X5 Tech} — Largest retail in Russia}} \\ [1mm]
+  \small{Developed and supported subscription services ("Package", "Abonement") in a corporate, cross-functional environment.} \\ [1mm]
+  {\small \textbf{Tech stack:} React, TanStack Query, pnpm, Axios, Chart.js, Python \& FastAPI (reading)} 
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0em, partopsep=0pt]
+      \item Increased customer retention by 12\% through frontend improvements.
+      \item Reduced release time-to-market by 15\% within 6 months.
+      \item Reduced production issues by 18\% after refactoring codebase.
+    \end{itemize}
+  }
+
+  \item \normalsize{\textbf{\color{darkblue} Frontend Developer}} \hfill \textit{July 2022 -- Mar 2023} \\ [0.5mm]
+  \small{\textit{\textbf{ITMO University} — EdTech (remote exam monitoring)}} \\ [1mm]
+  \small{Redesigned frontend for ITMOproctor, improving scalability and user experience.} \\ [1mm]
+  {\small \textbf{Tech stack:} React, Redux, Vue.js, JavaScript, WebRTC, WebSockets, Axios} 
+  {\small
+    \vspace{-0.5mm}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0pt, partopsep=0pt]
+      \item Reduced time-to-market for new features by 20\% through modular architecture.
+      \item Decreased load times by 10\% with optimized routing, state, and sockets.
+      \item Enabled secure streaming for 5,000+ concurrent exams using WebRTC.
+    \end{itemize}
+  }
+\end{enumerate}
+
+
+
+\section{RELATED EXPERIENCE}
+\begin{enumerate}[leftmargin=1em, itemsep=0.01em, labelsep=0.2em]
+  \item \textbf{\color{darkblue} Machine Learning Engineer, X5 Tech} \hfill \textit{Feb 2025 -- Apr 2025} \\
+  {\small \textbf{Tech stack:} Python, pandas, scikit-learn, SHAP, XGBoost}\\
+  {\small Built a churn prediction model and a pricing simulation pipeline for subscriptions. Integrated results into dashboards and validated impact with A/B testing, supporting pricing optimization.}
+
+  \item \textbf{\color{darkblue} Teaching Assistant, ITMO University} \hfill \textit{Sep 2022 -- Feb 2023} \\
+  {\small \textbf{Tech stack:} Java, Spring Boot, PHP, JavaScript, React, Vue.js, Angular, HTML, CSS \\
+  Guided first-year students in programming and web development. Led Java sessions and mentored full-stack projects, enhancing technical and teaching skills.}
+
+  \item \textbf{\color{darkblue} CMS on FastAPI} \hfill \textit{2024} \\
+   {\small \textbf{Tech stack:} Python, FastAPI, PostgreSQL, Vue.Js, Vuex \\
+  Built a CMS in a contract team project with FastAPI and PostgreSQL. Delivered a scalable solution with authentication, data modeling, and a customized admin interface.}
+\end{enumerate}
+
+\vspace{-1em}
+
+\section{SKILLS}
+{\renewcommand{\arraystretch}{1.05}
+\setlength{\tabcolsep}{4pt} % Увеличиваем расстояние между колонками
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l >{}X@{}}
+Programming languages & Java, Kotlin, TypeScript, JavaScript (ES6+), Python, C \\ [0.4em]
+Backend frameworks & Spring Boot (Data, Security, MVC, JTA, Reactive), Java EE, Quarkus, NestJS, FastAPI \\ [0.4em]
+Messaging & Kafka, RabbitMQ, Amazon SQS, WebSockets, Server-Sent Events (SSE) \\ [0.4em]
+Networking & REST, GraphQL, gRPC, Swagger \\ [0.4em]
+Monitoring & Grafana, Prometheus, ELK Stack, Sentry, Micrometer \\ [0.25em]
+Databases & PostgreSQL, MySQL, Oracle, MongoDB, Redis, Spring Data, Hibernate, TypeORM, MiniO (S3-like) \\ [0.4em]
+DevOps & Docker, Git (GitHub, GitLab), CI/CD pipelines, AWS, Nginx, monorepo management, Maven, Gradle \\ [0.4em]
+Testing & JUnit, Jest, Vitest, Cypress, Playwright, Scrapy, Selenium \\ [0.4em]
+Frontend  & React, Redux, Vue, Next.js, Electron, Reac, CSS3, HTML5, pnpm, vite, webpack \\ [0.25em]
+Machine learning & NumPy, pandas, scikit-learn, PyTorch, XGBoost \\
+\end{tabularx}
+}
+\section{EDUCATION}
+\vspace{0.5em}
+% Регулируемый зазор между колонками образования
+\newlength{\EduGap}
+\setlength{\EduGap}{4mm} % поменяй на 6mm/10mm как нужно
+
+% --- Две колонки EDUCATION без multicol ---
+\noindent
+\begin{minipage}[t]{\dimexpr0.5\linewidth-0.5\EduGap\relax}
+  \educationentry[]
+    {AUAS (HvA)}
+    {Amsterdam, the Netherlands}
+    {Master}
+    {Digital Driven Business}
+    {2024 -- 2025}
+    {MSc}
+    {
+      \item Statistical testing
+      \item Machine learning
+      \item Clustering
+      \item Deep learning
+      \item Scrapy \& Selenium
+      \item RecSys
+      \item MLR models
+      \item Research skills
+    }
+
+  \vspace{0.2em}\dotfill\vspace{0.7em}
+
+  \educationentry[]
+    {Ozyegin University}
+    {Istanbul, Turkey}
+    {Bachelor}
+    {Computer Science (exchange)}
+    {2023 -- 2023}
+    {BSc -- Exchange semester}
+    {
+      \item Testing and analyzis
+      \item Parallel Computing
+      \item Advanced Databases
+      \item Computer Networks
+    }
+\end{minipage}
+\hspace{\EduGap}%
+\begin{minipage}[t]{\dimexpr0.5\linewidth-0.5\EduGap\relax}
+  \educationentry[]
+    {ITMO University}
+    {Saint-Petersburg, Russia}
+    {Bachelor}
+    {Software Engineering}
+    {2020 -- 2024}
+    {BSc}
+    {
+       \item Advanced and computational math
+       \item Probability and queueing theory
+       \item Web and low-level programming
+       \item Algorithms and data structures
+       \item Operating systems
+       \item Databases
+       \item Patterns
+       \item Microservices
+    }
+\end{minipage}
+
+
+% \section{LANGUAGES}
+% \begin{tabularx}{\linewidth}{>{\bfseries}l@{\hskip 2mm --- \hskip 2mm}X}
+% English & C1 (IELTS) \\
+% Russian & Native \\
+% Dutch & A1
+% \end{tabularx}
+
+% ... остальной правый контент ...
+
+\end{document}
