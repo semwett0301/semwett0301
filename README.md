@@ -10,7 +10,7 @@ I’m a full-stack developer with experience in both frontend and backend, and I
 
 This GitHub serves as my portfolio — with projects from my bachelor’s, master’s, and personal/open-source work.
 
-👉 This link is also included in my [CV](./CVs/Mokrov_Simon_Fullstack_CV (3).pdf).
+👉 This link is also included in my [CV](./CVs/Mokrov_Simon_Fullstack_CV.pdf).
 
 ---
 
