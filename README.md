@@ -43,6 +43,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-compose, springdoc-openapi**.
 - **[test-for-jupiter](https://github.com/semwett0301/test-for-jupiter)** -- repository for testing integrations and experiments with the Jupiter protocol and related tooling. Tech stack: **JavaScript, React, Redux, CSS (Modules), HTML5**
 - **[art-master-vk-app](https://github.com/semwett0301/art-master-vk-app)** -- application for Art Masters (personal account + program progress). Tech stack: **JavaScript, React, Redux, React Router, VK Mini Apps (VKUI, VK Bridge, VK Tunnel), MUI, Emotion, CSS (Modules), HTML5**
+- **[laravel-test-app](https://github.com/semwett0301/laravel-test-app)** – simple CRUD app for Banks and Comments, plus basic user authentication. Tech stack: **PHP 8+, Laravel, MySQL, Vite / NPM**
 
 ### 🐾 Pet-Projects & Open-Source  
 
