@@ -44,6 +44,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 
 
 ### 📗 Master Study Projects  
+- **[rec-sys-project](https://github.com/semwett0301/rec-sys-project)** -- recommendation Systems project: implements and compares collaborative filtering, content-based filtering, and matrix factorization (SVD++) on MovieLens, Netflix, and Yelp datasets, with evaluation on relevance, diversity, novelty, and serendipity. Includes a FastAPI backend and React frontend service. Tech stack: Python (scikit-learn, NumPy, pandas), Jupyter Notebook, React, TypeScript, FastAPI
   
 ### 🖊️ Test Tasks 
 - **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers.
