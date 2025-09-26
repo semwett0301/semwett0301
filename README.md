@@ -58,6 +58,7 @@ Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-co
 - **[laravel-test-app](https://github.com/semwett0301/laravel-test-app)** – simple CRUD app for Banks and Comments, plus basic user authentication. Tech stack: **PHP 8+, Laravel, MySQL, Vite / NPM**
 
 ### 🐾 Pet-Projects & Open-Source  
+- **[itmoproctor-front-react](https://github.com/semwett0301/itmoproctor-front-react)** -- react-based admin panel (MVP) for ITMOProctor, the online exam proctoring system at ITMO University. Tech stack: **React 18, TypeScript, Redux, React Router v6, Consta UI Kit, SCSS Modules, Axios, Socket.IO, WebRTC, Video.js, Kurento Utils**
 - **[itmoproctor-front](https://github.com/semwett0301/itmoproctor-front)** -- first prototype of the re-designed ITMOProctor frontend application. Tech stack: **Vue.js 3, Vuex, Vue Router, PrimeVue, Axios, Vue CLI, ESLint, Babel**
 - **[booking-java-back](https://github.com/semwett0301/booking-java-back)** -- backend for a booking system: Spring Boot REST API emulating booking.com functionality (hotels, users, reservations, reviews, payments). Tech stack: **Java 11, Spring Boot, Spring Data JPA, PostgreSQL, H2, MapStruct, Lombok, Maven**.
 - **[speed-test](https://github.com/semwett0301/speed-test)** -- web-based speed test application measuring ping, download, upload, and geolocation. Tech stack: **React, Consta UI, SCSS, Axios, Java 17, Spring Boot, Lombok, MaxMind GeoIP2, Maven**
