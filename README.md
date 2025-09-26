@@ -56,6 +56,7 @@ Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-co
 ### 🐾 Pet-Projects & Open-Source  
 - **[itmoproctor-front](https://github.com/semwett0301/itmoproctor-front)** -- first prototype of the re-designed ITMOProctor frontend application. Tech stack: **Vue.js 3, Vuex, Vue Router, PrimeVue, Axios, Vue CLI, ESLint, Babel**
 - **[booking-java-back](https://github.com/semwett0301/booking-java-back)** -- backend for a booking system: Spring Boot REST API emulating booking.com functionality (hotels, users, reservations, reviews, payments). Tech stack: **Java 11, Spring Boot, Spring Data JPA, PostgreSQL, H2, MapStruct, Lombok, Maven**.
+- **[speed-test](https://github.com/semwett0301/speed-test)** -- web-based speed test application measuring ping, download, upload, and geolocation. Tech stack: **React, Consta UI, SCSS, Axios, Java 17, Spring Boot, Lombok, MaxMind GeoIP2, Maven**
 
 
 ---
