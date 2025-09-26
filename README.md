@@ -28,6 +28,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 ## 📂 Repository Categories  
 
 ### 📘 Bachelor Study Projects  
+- **[blps-labs](https://github.com/semwett0301/blps-labs)** -- AUAS labs for Business Logic of Software Systems: step-by-step implementation of an online book ordering and delivery system, covering business logic, transactions, security, distributed processing, and BPMN orchestration. Tech stack: **Java 11/17, Spring Boot, PostgreSQL, MapStruct, Lombok, Swagger, JWT, Bitronix (JTA), Apache Kafka, Camunda BPM, Docker, docker-compose**
 - **[web-labs](https://github.com/semwett0301/web-labs)** —- a series of university web programming labs implementing an interactive “point-in-area” app across multiple stacks (PHP/JS, Java Servlets/JSP, JSF, and a modern split with Spring Boot + PostgreSQL backend and Vue.js frontend). Tech stack: **PHP, Java (Servlets/JSP, JSF), Spring Boot, Spring Security (JWT), Hibernate, PostgreSQL, Vue.js, JavaScript, CSS**.
 - **[cs-3-lab](https://github.com/semwett0301/cs-3-lab)** -- implementation of an assembler, translator, and computational model for a simplified RISC-like architecture. Includes support for registers, variables, memory addressing, and arithmetic/logical operations, with execution modeled step by step. Tech stack: **Python, Docker, CI/CD, Pytest, Golden Tests**
 - **[timus-tasks](https://github.com/semwett0301/timus-tasks)** -- implementations of algorithmic problems on Timus platform from the Algorithms and Data Structures course. Tech stack: **C++**
