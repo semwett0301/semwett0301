@@ -45,6 +45,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 
 ### 📗 Master Study Projects  
 - **[rec-sys-project](https://github.com/semwett0301/rec-sys-project)** -- recommendation Systems project: implements and compares collaborative filtering, content-based filtering, and matrix factorization (SVD++) on MovieLens, Netflix, and Yelp datasets, with evaluation on relevance, diversity, novelty, and serendipity. Includes a FastAPI backend and React frontend service. Tech stack: **Python (scikit-learn, NumPy, pandas), Jupyter Notebook, React, TypeScript, FastAPI**
+- **[dms-hypothesis-testing](https://github.com/semwett0301/dms-hypothesis-testing)** -- statistical analysis project for social media engagement data (travel brands on Instagram). Implements hypothesis testing and multilevel regression to evaluate likes and comments across brand types. Tech stack: **Python, Jupyter Notebook, pandas, SciPy, statsmodels, scikit-learn**
   
 ### 🖊️ Test Tasks 
 - **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers.
