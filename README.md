@@ -47,7 +47,9 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 - **[rec-sys-project](https://github.com/semwett0301/rec-sys-project)** -- recommendation Systems project: implements and compares collaborative filtering, content-based filtering, and matrix factorization (SVD++) on MovieLens, Netflix, and Yelp datasets, with evaluation on relevance, diversity, novelty, and serendipity. Includes a FastAPI backend and React frontend service. Tech stack: **Python (scikit-learn, NumPy, pandas), Jupyter Notebook, React, TypeScript, FastAPI**
 - **[dms-hypothesis-testing](https://github.com/semwett0301/dms-hypothesis-testing)** -- statistical analysis project for social media engagement data (travel brands on Instagram). Implements hypothesis testing and multilevel regression to evaluate likes and comments across brand types. Tech stack: **Python, Jupyter Notebook, pandas, SciPy, statsmodels, scikit-learn**
 - **[db-auas-project](https://github.com/semwett0301/db-auas-project)** -- Database Management course project: prepares and loads movie datasets into a PostgreSQL database, then tests hypotheses on the relationship between reviews, awards, release timing, and box office performance. Tech stack: **Python, Jupyter Notebook, SQL, PostgreSQL, Docker, pandas**
-  
+- **[auas-odm-assignment](https://github.com/semwett0301/auas-odm-assignment)** -- AUAS assignment: web scraping and data analysis platform for collecting movie data from IMDb, Metacritic, and Box Office Mojo, storing it in PostgreSQL for further analysis.
+Tech stack: **Python, Scrapy, Selenium, Pandas, NumPy, SQLAlchemy, PostgreSQL, Docker, Plotly, Matplotlib, Seaborn**
+
 ### 🖊️ Test Tasks 
 - **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers.
 Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-compose, springdoc-openapi**.
