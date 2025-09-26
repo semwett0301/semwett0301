@@ -42,6 +42,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 - **[demon-db-service](https://github.com/semwett0301/demon-db-service)** -- Database Management course project: a distributed system simulating an afterlife distribution system with client–server interaction. Tech stack: **Java, Spring Boot, PostgreSQL, Liquibase, Docker, React, TypeScript, Storybook**
 - **[cloud-mono](https://github.com/semwett0301/cloud-mono)** - Cloud and Fog Calculations: implements microservices, shared libraries, and cloud infrastructure in a mono-repository structure. Tech stack: **Node.js, TypeScript, React, Nest.js, Docker / Docker Compose, monorepo**
 - **[advanced-db-homework](https://github.com/semwett0301/advanced-db-homework)** -- Advanced databases course: implements database tasks such as query design, optimization, and schema management. Tech stack: **PostgreSQL, Spring Boot, Guava, Java, JUnit5**
+- **[information-security](https://github.com/semwett0301/information-security)** – collection of Information Security lab exercises: classical cipher (Polybius square) and multiple RSA attack implementations (Fermat, re-encryption, keyless reading). Tech stack: **Python, cryptography algorithms**
 
 
 ### 📗 Master Study Projects  
