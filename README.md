@@ -53,6 +53,7 @@ Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-co
 - **[laravel-test-app](https://github.com/semwett0301/laravel-test-app)** – simple CRUD app for Banks and Comments, plus basic user authentication. Tech stack: **PHP 8+, Laravel, MySQL, Vite / NPM**
 
 ### 🐾 Pet-Projects & Open-Source  
+- **[itmoproctor-front](https://github.com/semwett0301/itmoproctor-front)** -- first prototype of the re-designed ITMOProctor frontend application. Tech stack: **Vue.js 3, Vuex, Vue Router, PrimeVue, Axios, Vue CLI, ESLint, Babel**
 
 
 ---
