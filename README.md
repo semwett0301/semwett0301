@@ -54,9 +54,9 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 - **[auas-odm-assignment](https://github.com/semwett0301/auas-odm-assignment)** -- AUAS assignment: web scraping and data analysis platform for collecting movie data from IMDb, Metacritic, and Box Office Mojo, storing it in PostgreSQL for further analysis.
 Tech stack: **Python, Scrapy, Selenium, Pandas, NumPy, SQLAlchemy, PostgreSQL, Docker, Plotly, Matplotlib, Seaborn**
 
-### 🖊️ Test Tasks 
-- **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers.
-Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-compose, springdoc-openapi**.
+### 🖊️ Test Assignments 
+- **[medic-assignment](https://github.com/semwett0301/medic-assignment)** -- test assignment for list clients. Tech stack: **Angular, TypeScript, Jest, SCSS, JSON server**
+- **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers. Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-compose, springdoc-openapi**.
 - **[test-for-jupiter](https://github.com/semwett0301/test-for-jupiter)** -- repository for testing integrations and experiments with the Jupiter protocol and related tooling. Tech stack: **JavaScript, React, Redux, CSS (Modules), HTML5**
 - **[art-master-vk-app](https://github.com/semwett0301/art-master-vk-app)** -- application for Art Masters (personal account + program progress). Tech stack: **JavaScript, React, Redux, React Router, VK Mini Apps (VKUI, VK Bridge, VK Tunnel), MUI, Emotion, CSS (Modules), HTML5**
 - **[bazaar-test-task](https://github.com/semwett0301/bazaar-test-task)** (feature branch) -- frontend test task: mostly scaffolded code provided; enhancements and new features to be implemented using Next.js, React. Tech stack: **TypeScript / JavaScript, Next.js, React, CSS modules, TanStack, Axios, Cypress, Jest, Docker**
