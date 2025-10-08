@@ -55,7 +55,8 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 Tech stack: **Python, Scrapy, Selenium, Pandas, NumPy, SQLAlchemy, PostgreSQL, Docker, Plotly, Matplotlib, Seaborn**
 
 ### 🖊️ Test Assignments 
-- **[medic-assignment](https://github.com/semwett0301/medic-assignment)** -- test assignment for list clients. Tech stack: **Angular, TypeScript, Jest, SCSS, JSON server**
+- **[test-assigment-venta-ai](https://github.com/semwett0301/test-assigment-venta-ai)** -- test task for Venta AI, a company research app that crawls websites and uses OpenAI GPT to answer user questions. Tech stack: **Remix, React, TypeScript, Mantine, Docker, Redis, Playwright, OpenAI API**.
+- **[medic-assignment](https://github.com/semwett0301/medic-assignment)** -- test assignment for list clients. Tech stack: **Angular, TypeScript, Jest, SCSS, JSON server**.
 - **[itmo-test-task](https://github.com/semwett0301/itmo-test-task)** -- test task for Gazprombank: REST API for companies, departments, employees, and servers. Tech stack: **Kotlin, Spring Boot, Gradle, PostgreSQL, Flyway, Docker, docker-compose, springdoc-openapi**.
 - **[test-for-jupiter](https://github.com/semwett0301/test-for-jupiter)** -- repository for testing integrations and experiments with the Jupiter protocol and related tooling. Tech stack: **JavaScript, React, Redux, CSS (Modules), HTML5**
 - **[art-master-vk-app](https://github.com/semwett0301/art-master-vk-app)** -- application for Art Masters (personal account + program progress). Tech stack: **JavaScript, React, Redux, React Router, VK Mini Apps (VKUI, VK Bridge, VK Tunnel), MUI, Emotion, CSS (Modules), HTML5**
