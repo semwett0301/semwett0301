@@ -55,6 +55,7 @@ This GitHub serves as my portfolio — with projects from my bachelor’s, maste
 Tech stack: **Python, Scrapy, Selenium, Pandas, NumPy, SQLAlchemy, PostgreSQL, Docker, Plotly, Matplotlib, Seaborn**
 
 ### 🖊️ Test Assignments 
+- **[laravel-angular-test-assignment](https://github.com/semwett0301/laravel-angular-test-assignment)** -- full-stack project built by completing tasks in a pre-existing repository. It includes a Laravel backend, an Angular frontend, and a mock price-API service integrated via Docker Compose with MySQL and Redis caching for asynchronous data handling. Tech stack: **Laravel (PHP), Angular (TypeScript, SCSS, HTML), MySQL, Redis, Docker Compose**.
 - **[medic-java-test-assignment](https://github.com/semwett0301/medic-java-test-assignment)** -- implementation of a modular, thread-safe Rock–Paper–Scissors game following professional software design principles. The project demonstrates architecture patterns such as Strategy, State, and Command, ensuring modularity, reusability, and testability. Tech stack: **Java, Gradle, Docker, JUnit5**.
 - **[test-assigment-venta-ai](https://github.com/semwett0301/test-assigment-venta-ai)** -- test task for Venta AI, a company research app that crawls websites and uses OpenAI GPT to answer user questions. Tech stack: **Remix, React, TypeScript, Mantine, Docker, Redis, Playwright, OpenAI API**.
 - **[medic-assignment](https://github.com/semwett0301/medic-assignment)** -- test assignment for list clients. Tech stack: **Angular, TypeScript, Jest, SCSS, JSON server**.
